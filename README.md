@@ -19,25 +19,25 @@
 
 The two inputs are read from a text file and stored in two vectors of integers.
 
-Algorithm:
+  # Algorithm:
 
-Inputs: two vectors of integers x, y
+  Inputs: two vectors of integers x, y
 
-Output: A vector z, initially set to 0
+  Output: A vector z, initially set to 0
 
-.	multiply z by 2
+  .	multiply z by 2
 
-.	If the y digit is odd, add x to z
+  .	If the y digit is odd, add x to z
 
-.	If it’s even, skip it and move on to the next digit
+  .	If it’s even, skip it and move on to the next digit
 
-To add two numbers x and y:
+  To add two numbers x and y:
 
-.	Zeros are added to the operand with the fewer number of digits
+    .	Zeros are added to the operand with the fewer number of digits
 
-.	Every two elements in the vectors are added
+    .	Every two elements in the vectors are added
 
-.	If both operands are 1’s, the sum will be set to 1 and the carry will be set to 0
-
-.	If both operands are 1’s and the carry-in is also a 1, the sum will be set to 1 and the carry will be set to 1
-
+    .	If both operands are 1’s, the sum will be set to 1 and the carry will be set to 0
+  
+    .	If both operands are 1’s and the carry-in is also a 1, the sum will be set to 1 and the carry will be set to 1
+  
