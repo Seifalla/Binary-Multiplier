@@ -6,7 +6,7 @@
 
 -	Use g++ to compile
 
--	Run as: ./a.out testFile.txt (where testFile contains the two operands)
+-	Run as: ./a.out testFile.txt (where testFile contains the two operands seperated by an empty space)
 
 -	The two operands should be entered in reversed order (i.e. they should start with the least significant bit).
 
