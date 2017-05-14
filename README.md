@@ -31,7 +31,7 @@ The two inputs are read from a text file and stored in two vectors of integers.
 
   To add two numbers x and y:
 
-    .	Zeros are added to the operand with the fewer number of digits
+    .The operand with fewer digits is padded with 0’s
 
     .	Every two elements in the vectors are added
 
