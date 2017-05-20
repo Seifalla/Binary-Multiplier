@@ -17,6 +17,8 @@
 
 The two inputs are read from a text file and stored in two vectors of integers.
 
+Note: The two operands can be of any length.
+
   # Algorithm:
 
   Inputs: two vectors of integers x, y
