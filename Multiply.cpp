@@ -169,8 +169,8 @@ vector<int> multiply(vector<int> x, vector<int> y){
     
    vector<int> z(0);  //stores the product
 
-//description of the following instructions 
-//will be in the report.            
+// shift and add
+	
    for(int i = (y.size() - 1); i >= 0; i--){
        
        z.insert (z.begin(), 0);
